@@ -1,73 +1,155 @@
-# Welcome to your Lovable project
 
-## Project info
+# Surya Majji - Data Engineer Portfolio
 
-**URL**: https://lovable.dev/projects/1f741719-2eca-4d06-8c45-8e4f12bb8b93
+A modern, responsive portfolio website for Surya Majji, a Data Engineer specializing in scalable data architectures and cloud ecosystems.
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- **Multi-page Navigation**: Home, About, Skills, Projects, Resume, Contact, and Blog sections
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Professional Theme**: Clean light theme with blue and red accent colors
+- **Contact Form**: Functional contact form with validation
+- **Resume Download**: PDF resume download functionality
+- **GitHub Integration**: Links to GitHub profile and projects
+- **Modern Tech Stack**: Built with React, TypeScript, and Tailwind CSS
 
-**Use Lovable**
+## 🛠️ Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1f741719-2eca-4d06-8c45-8e4f12bb8b93) and start prompting.
+- **Frontend**: React 18 with TypeScript
+- **Styling**: Tailwind CSS with custom color palette
+- **UI Components**: Shadcn/ui component library
+- **Routing**: React Router DOM
+- **Build Tool**: Vite
+- **Icons**: Lucide React
+- **Form Handling**: React Hook Form with Zod validation
+- **Notifications**: Sonner for toast notifications
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📱 Sections Overview
 
-**Use your preferred IDE**
+### Home
+- Hero section with professional introduction
+- Quick stats and achievements
+- Call-to-action buttons
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### About
+- Professional summary
+- Areas of expertise
+- Key achievements and certifications
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Skills
+- Technical skills with proficiency levels
+- Categorized by technology type
+- AWS services expertise showcase
 
-Follow these steps:
+### Projects
+- Featured project: Lifestance Health data pipeline
+- Additional projects portfolio
+- GitHub profile integration
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Resume
+- Downloadable PDF resume
+- Complete professional information
+- Contact details and certifications
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Contact
+- Contact form with validation
+- Direct contact information
+- Social media links
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Blog
+- Upcoming articles section
+- Categories and topics
+- Newsletter subscription (coming soon)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🎨 Design Features
+
+- **Color Scheme**: Light theme with blue (#3B82F6) and red (#EF4444) accents
+- **Typography**: Inter font family for modern, professional look
+- **Animations**: Smooth transitions and hover effects
+- **Cards**: Clean card-based layout for content organization
+- **Gradients**: Subtle gradients for visual appeal
+
+## 📧 Contact Information
+
+- **Email**: smajjipdx.de@gmail.com
+- **Phone**: +1 971-396-8897
+- **Location**: Austin, Texas
+- **GitHub**: https://github.com/SuryaMajji-pdx
+
+## 🚀 Local Development
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd surya-majji-portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open browser**
+   Navigate to `http://localhost:8080`
+
+## 📦 Build for Production
+
+```bash
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+The built files will be in the `dist` directory.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌐 Deployment Options
 
-**Use GitHub Codespaces**
+### GitHub Pages
+1. Push your code to a GitHub repository
+2. Go to Settings > Pages
+3. Select source branch (usually `main`)
+4. Your site will be available at `https://username.github.io/repository-name`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Custom Domain (suryamajji.com)
+1. Deploy to your preferred hosting service (Netlify, Vercel, etc.)
+2. Configure DNS settings to point to your hosting provider
+3. Update any necessary environment variables
 
-## What technologies are used for this project?
+### Netlify (Recommended)
+1. Connect your GitHub repository to Netlify
+2. Build command: `npm run build`
+3. Publish directory: `dist`
+4. Deploy automatically on each push
 
-This project is built with:
+## 📋 Customization
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Adding Your Resume PDF
+1. Add your PDF file to the `public` folder
+2. Update the download link in `src/pages/Resume.tsx`
+3. Replace the alert with actual PDF download functionality
 
-## How can I deploy this project?
+### Updating Contact Information
+- Modify contact details in `src/pages/Contact.tsx`
+- Update footer information in `src/components/Footer.tsx`
 
-Simply open [Lovable](https://lovable.dev/projects/1f741719-2eca-4d06-8c45-8e4f12bb8b93) and click on Share -> Publish.
+### Adding Blog Posts
+- Create blog post components in `src/components/blog/`
+- Update the `src/pages/Blog.tsx` with actual content
+- Implement blog post routing and data management
 
-## Can I connect a custom domain to my Lovable project?
+## 🤝 Contributing
 
-Yes, you can!
+This is a personal portfolio website. If you find any bugs or have suggestions for improvements, please feel free to reach out.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is private and intended for personal use by Surya Majji. Please respect intellectual property rights.
+
+---
+
+**Built with ❤️ by Surya Majji**
+
+*Data Engineer specializing in scalable, cost-effective data architectures*
