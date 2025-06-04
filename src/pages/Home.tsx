@@ -51,7 +51,7 @@ const Home = () => {
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-red-400 rounded-full flex items-center justify-center">
                   <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                    src="/images/profile.png"
                     alt="Surya Majji" 
                     className="w-72 h-72 rounded-full object-cover border-4 border-white shadow-2xl"
                   />
