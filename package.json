@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://SuryaMajji-pdx.github.io/surya-majji-portfolio-austin",
+  "homepage": "https://suryamajji-pdx.github.io/surya-majji-portfolio-austin",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
