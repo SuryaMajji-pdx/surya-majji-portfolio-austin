@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Mail, Contact as ContactIcon, Github } from 'lucide-react';
 import { toast } from 'sonner';
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -50,6 +51,8 @@ const Contact = () => {
       [e.target.name]: e.target.value
     });
   };
+
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen py-16">
@@ -241,7 +244,7 @@ const Contact = () => {
               variant="outline" 
               size="lg" 
               className="border-red-400 text-red-600 hover:bg-red-50 px-8 py-3"
-              onClick={() => window.location.href = '/resume'}
+              onClick={() => navigate("/resume")}
             >
               View Resume
             </Button>

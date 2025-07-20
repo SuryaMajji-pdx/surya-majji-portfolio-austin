@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Download, Mail, Github } from 'lucide-react';
+import { useNavigate } from "react-router-dom";
 
 const Resume = () => {
   const handleDownload = () => {
@@ -18,6 +19,8 @@ const Resume = () => {
     // For now, show an alert since we don't have an actual PDF
     alert('Resume download would start here. Please upload your actual PDF resume file.');
   };
+
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen py-16">
@@ -206,7 +209,7 @@ const Resume = () => {
           <Button 
             variant="outline" 
             size="lg" 
-            onClick={() => window.location.href = '/contact'}
+            onClick={() => navigate("/contact")}
             className="border-red-400 text-red-600 hover:bg-red-50 px-8 py-3"
           >
             Get In Touch
