@@ -104,11 +104,10 @@ const About = () => {
               className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
             >
               Get In Touch </Link>
-            <a 
-              href="/resume" 
+            <Link to ="/resume"
               className="border border-red-400 text-red-600 px-8 py-3 rounded-lg hover:bg-red-50 transition-colors font-medium"
             >
-              View Resume
+              View Resume </Link>
             </a>
           </div>
         </div>
