@@ -3,11 +3,8 @@ import { Button } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 import { useNavigate } from "react-router-dom";
 
-
-const CtaSection = () => {
-  const navigate = useNavigate();
-
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
