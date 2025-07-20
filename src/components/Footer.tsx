@@ -1,5 +1,5 @@
-
 import { Github, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -12,14 +12,14 @@ const Footer = () => {
               Data Engineer specializing in scalable data architectures and cloud ecosystems.
             </p>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <div className="space-y-2">
-              <a href="/about" className="block text-gray-300 hover:text-blue-400 transition-colors">About</a>
-              <a href="/skills" className="block text-gray-300 hover:text-blue-400 transition-colors">Skills</a>
-              <a href="/projects" className="block text-gray-300 hover:text-blue-400 transition-colors">Projects</a>
-              <a href="/contact" className="block text-gray-300 hover:text-blue-400 transition-colors">Contact</a>
+              <Link to="/about" className="block text-gray-300 hover:text-blue-400 transition-colors">About</Link>
+              <Link to="/skills" className="block text-gray-300 hover:text-blue-400 transition-colors">Skills</Link>
+              <Link to="/projects" className="block text-gray-300 hover:text-blue-400 transition-colors">Projects</Link>
+              <Link to="/contact" className="block text-gray-300 hover:text-blue-400 transition-colors">Contact</Link>
             </div>
           </div>
           

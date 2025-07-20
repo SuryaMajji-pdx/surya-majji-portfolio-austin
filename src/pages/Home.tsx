@@ -51,7 +51,7 @@ const Home = () => {
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-red-400 rounded-full flex items-center justify-center">
                   <img 
-                    src="/public/images/Adobe Express - file (1).jpg"
+                    src="/surya-majji-portfolio-austin/images/Adobe Express - file (1).jpg"
                     alt="Surya Majji" 
                     className="w-72 h-72 rounded-full object-cover border-4 border-white shadow-2xl"
                   />
