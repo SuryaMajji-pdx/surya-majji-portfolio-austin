@@ -22,7 +22,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/surya-majji-portfolio-austin">
+      <BrowserRouter basename="/Surya_Majji-DataEngineer">
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-1">
