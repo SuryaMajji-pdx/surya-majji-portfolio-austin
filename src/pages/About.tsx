@@ -108,7 +108,6 @@ const About = () => {
               className="border border-red-400 text-red-600 px-8 py-3 rounded-lg hover:bg-red-50 transition-colors font-medium"
             >
               View Resume </Link>
-            </a>
           </div>
         </div>
       </div>
